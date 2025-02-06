@@ -1,0 +1,47 @@
+:root{
+    /* color variables */
+    --blue_500: #2196f3;
+    --blue_600: #3d8ccd;
+    --blue_gray_900: #292f36;
+    --deep_orange_700: #e54f26;
+    --gray_800: #43454d;
+    --gray_900: #1a1e234;
+    --green_a400: #0acf83;
+    --indigo_200: #8f9ed1;
+    --red_400:#f15e54;
+    --red_400:#ff2d20;
+    --teal_a100: #97f9eb;
+    --teal_a400: #12f7d6;
+    --white_a700: #ffffff;
+    --yellow_a700: #ffdf00;
+
+    /* border radius variables */
+    --radius-xs: 10px;
+    --radius-sm: 20px;
+    --radius-md: 22px;
+    --radius-lg: 28px;
+    --radius-xl: 40px;
+
+    /* spacing variables */
+    --space-xs: 6px;
+    --space-sm: 8px;
+    --space-md: 10px;
+    --space-lg: 14px;
+    --space-xl: 16px;
+    --space-2xl: 20px;
+    --space-3xl: 22px;
+    --space-4xl: 30px;
+}
+
+/* Efek transisi awal */
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Saat elemen terlihat di viewport */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}

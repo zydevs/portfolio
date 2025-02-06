@@ -1,0 +1,28 @@
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("../public/fonts/IBMPlexMonoRegular.ttf");
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+}
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("../public/fonts/UbuntuRegular.ttf");
+    font-family: "Ubuntu";
+    font-weight: 400;
+}
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("../public/fonts/IBMPlexMonoMedium.ttf");
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+}
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("../public/fonts/UbuntuLight.ttf");
+    font-family: "IBM Plex Mono";
+    font-weight: 300;
+}

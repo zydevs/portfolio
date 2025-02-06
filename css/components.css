@@ -1,0 +1,103 @@
+/* Input */
+.ui.input.square{
+    border-radius: 0px;
+}
+
+.ui.input.size-xs{
+    height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 16px;
+}
+
+.ui.input.fill.teal_a100{
+    background-color: var(--teal_a100);
+    color: var(--white_a700);
+}
+
+.ui.input.underline.teal_a100{
+    color: var(--white_a700);
+    border-bottom: 1px solid var(--teal_a100);
+}
+
+.ui.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+    color: var(--white_a700);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Button */
+.ui.button.round{
+    border-radius: var(--radius-md);
+}
+
+.ui.button.circle{
+    border-radius: 50%;
+}
+
+.ui.button.size-sm{
+    height: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 20px;
+}
+
+.ui.button.size-md{
+    height: 56px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 20px;
+}
+
+.ui.button.size-xs{
+    height: 40px;
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+
+.ui.button.fill.teal_a400{
+    background-color: var(--teal_a400);
+    color: var(--blue_gray_900);
+}
+
+.ui.button.fill.gray_a800{
+    background-color: var(--gray_800);
+}
+
+.ui.buttton{
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+/* Text */
+.ui.text.size-textxs{
+    color: var(--white_a700);
+    font-family: "IBM Plex Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+}
+
+.ui.text.size-texts{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ui.text.size-textmd{
+    font-size: 24px;
+    font-weight: 400;
+    @media only screen and (max-width: 1050px){
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,1138 @@
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Coomon CSS */
+.header__info__title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about__title-text{
+    color: var(--white_a700);
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 112.5% */
+    text-transform: capitalize;
+}
+
+.about__description-text-span-1{
+    color: var(--white_a700);
+}
+
+.about__description-text-span-2{
+    color: var(--teal_a400);
+}
+
+.header__info__title__heading{
+    color: var(--teal_a100) !important;
+    font-size: 14px !important;
+}
+
+.user-profile{
+    gap: var(--space-sm);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    height: 99.351px;
+}
+
+.user-profile__image{
+    height: 98px;
+    width: 100%;
+    object-fit: cover;
+    @media only screen and (max-width: 1050px){
+        height: auto;
+    }
+}
+
+.header__menu a p {
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.header__menu a:hover p {
+    color: var(--teal_a400);
+    text-shadow: 
+        0px 0px 5px rgba(0, 128, 128, 0.8), 
+        0px 0px 10px rgba(0, 128, 128, 0.6), 
+        0px 0px 15px rgba(0, 128, 128, 0.4); /* Efek timbul lebih nyata */
+}
+
+.header__menu-item{
+    color: var(--white_a700);
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-1{
+    color: #E54F26;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-2{
+    color: #2196F3;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-3{
+    color: #FFDF00;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-4{
+    color: #8F9ED1;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-5{
+    color: #0ACF83;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-6{
+    color: #F15E54;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-7{
+    color: #3D8CCD;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+.header__menu-item-8{
+    color: #FF2D20;
+    font-family: "IBM Plex Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 190.909% */
+    text-transform: capitalize;
+}
+
+.skills__title-text{
+    color: var(--teal_a400) !important;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 160% */
+    text-transform: capitalize;
+}
+
+/* line input */
+.contact__name-column,
+.contact__email-column {
+    flex: 1; /* Membuat kedua kolom ini memiliki lebar yang sama */
+}
+
+.contact__message-column {
+    flex: 1;
+}
+
+/* Memastikan input dan label mengisi seluruh lebar kolom */
+.contact__name-input input,
+.contact__email-input input,
+.contact__message-input input {
+    border: none; /* Menghilangkan border default */
+    border-bottom: 2px solid #98FAEC; /* Menambahkan garis bawah berwarna */
+    outline: none; /* Menghilangkan outline saat fokus */
+    width: 100%; /* Menyamaratakan lebar input dengan kolom */
+    padding-left: 0px; /* Memberikan padding kiri agar teks tidak menempel pada garis bawah */
+    padding-right: 12px; /* Memberikan padding kanan agar teks tidak menempel pada garis bawah */
+}
+
+/* Menambahkan sedikit ruang di bawah input untuk memperjelas visual garis bawah */
+.contact__name-input input,
+.contact__email-input input,
+.contact__message-input input {
+    margin-bottom: 12px;
+}
+
+/* Jika menggunakan label */
+.contact__name-input,
+.contact__email-input,
+.contact__message-input {
+    display: block;
+    width: 100%;
+}
+
+/* title line */
+/* title line */
+.title-line {
+    height: 2px;
+    background-color: var(--teal_a400);
+    width: 100%; /* Default full width */
+    max-width: 300px; /* Sesuai lebar judul */
+    position: relative;
+    margin: auto; /* Pusatkan */
+}
+
+/* Lingkaran di kiri & kanan */
+.title-line::before,
+.title-line::after {
+    content: "";
+    width: 10px; /* Ukuran lingkaran */
+    height: 10px;
+    background-color: var(--teal_a400);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title-line::before {
+    left: 0;
+}
+
+.title-line::after {
+    right: 0;
+}
+
+/* Responsif: Ubah ukuran sesuai layar */
+@media (max-width: 1050px) {
+    .title-line {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 550px) {
+    .title-line {
+        max-width: 200px;
+    }
+}
+/*  */
+
+.user-profile1{
+    gap: var(--space-4xl);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; /* Menghapus garis bawah link */
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efek hover pada gambar */
+.user-profile1__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Agar gambar lebih halus di tepi */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek timbul pada gambar */
+.user-profile1:hover .user-profile1__image {
+    transform: translateY(-10px); /* Gambar bergerak ke atas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+}
+
+/* Menyusun caption */
+.about__illustration-caption {
+    margin-top: 10px;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.user-profile1__row{
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    background-color: var(--blue_gray_900);
+    align-self: stretch;
+    display: flex;
+    padding: var(--space-2xl);
+    border: 4px solid var(--teal_a400);
+}
+
+.user-profile1__image{
+    height: 296px;
+    width: 98%;
+    object-fit: contain;
+    border-radius: var(--radius-xs);
+}
+
+.about__illustration-caption{
+    color: var(--teal_a400) !important;
+    font-family: "IBM Plex Mono";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 131.25% */
+    text-transform: capitalize;
+}
+
+.contact__name-label{
+    color: var(--teal_a400) !important;
+    font-family: Ubuntu !important;
+    font-size: 16px !important;
+    font-weight: 300px !important;
+}
+
+.header__socials__email{
+    height: 40px;
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+    background-color: var(--gray_800) !important;
+    width: 40px;
+    border-radius: 20px !important;
+}
+
+.header__socials__email{
+    height: 40px;
+    padding-left: var(--space-xs);
+    padding-right: var(--space-xs);
+    background-color: var(--gray_800) !important;
+    width: 40px;
+    border-radius: 20px !important;
+}
+
+
+/* page CSS */
+
+.zydevs{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: var(--blue_gray_900);
+    width: 100%;
+}
+
+header{
+    margin-left: 80px;
+    margin-right: 80px;
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.header__column{
+    gap: var(--space-md);
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top-row{
+    margin-right: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-2xl);
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+}
+
+.header__logo{
+    height: 76px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.header__navigation{
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-2xl);
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        padding-left: var(--space-2xl);        
+        padding-right: var(--space-2xl);        
+    }
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.header__menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.header__button{
+    color: var(--blue_gray_900) !important;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: var(--teal_a400) !important;
+    height: 44px;
+    min-width: 166px;
+    border-radius: 22px !important;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    @media only screen and (max-width: 550px) {
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.header__button:hover {
+    color: white;
+    background-color: var(--teal_a400);
+    box-shadow: 
+        0px 4px 10px rgba(0, 128, 128, 0.5), 
+        0px 6px 20px rgba(0, 128, 128, 0.4);
+    transform: translateY(-3px);
+}
+
+.header__divider{
+    height: 1px;
+    background-color: var(--gray_800);
+}
+
+.header-1{
+    margin-top: 4px;
+    margin-left: 62px;
+    margin-right: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {     
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.header__photo{
+    height: 488px;
+    width: 24%;
+    margin-top: 20px;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.rowdeveloper{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.header__content{
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.header__title{
+    width: 676px;
+    color: var(--teal_a100) !important;
+    font-family: Ubuntu;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110px; /* 157.647% */
+    text-transform: capitalize;
+}
+
+.right{
+    margin-top: -12px;
+    gap: var(--space-2xl);
+    position: relative;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.header__info{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0;
+    }
+}
+
+.header__info__title__container{
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    align-self: stretch;
+}
+
+.header__info__title__subcontainer__name{
+    color: var(--white_a700);
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 112.5% */
+    text-transform: capitalize;
+}
+
+.header__info__title__subcontainer__identity{
+    margin-top: -10px;
+    gap: 17px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__info__title__subcontainer__closing{
+    color: var(--teal_a100) !important;
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    align-self: flex-end;
+}
+
+.header__info__description{
+    gap: var(--space-sm);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__info__description__container{
+    padding-left: 0px;
+    padding-right: 55px;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    @media only screen and(max-width: 550px) {
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.header__info__description__closing{
+    color: var(--teal_a100) !important;
+    margin-bottom: 12px;
+    font-size: 14px !important;
+}
+
+.header__socials{
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 25px;
+    display: flex;
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.header__socials a {
+    display: inline-block;
+    border-radius: 50%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.header__socials a:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0px 5px 5px rgba(0, 128, 128, 0.4));
+}
+
+.columnaboutme{
+    margin-top: 68px;
+    margin-bottom: 6px;
+}
+
+.aboutme{
+    height: 700px;
+    background-color: var(--gray_900);
+    background-image: url(../public/images/aboutme.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 65px 56px;
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+        padding: var(--space-2xl);
+    }
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 1050px){
+        flex-direction: column;
+    }
+}
+
+.about__content{
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+    gap: 24px;
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;       
+    }
+}
+
+.about__title{
+    border-top-left-radius: var(--radius-xl);
+    border-bottom-right-radius: var(--radius-xl);
+    background-color: var(--blue_gray_900);
+    display: flex;
+    padding: var(--space-lg);
+    border: 4px solid var(--teal_a400);
+}
+
+.about__description-column{
+    margin-bottom: 64px;
+    gap: var(--space-md);
+    display: flex;
+    background-color: var(--blue_gray_900);
+    width: 88%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-sm) 40px;
+    border-radius: var(--radius-xl);
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+    @media only screen and (max-width: 550px) {
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.about__description-start{
+    color: var(--teal_a100) !important;
+    margin-top: 14px;
+    font-size: 14px !important;
+}
+
+.about__description-text{
+    width: 100%;
+    line-height: 20px;
+}
+
+.about__description-text-span{
+    color: var(--teal_a400);
+    text-transform: capitalize;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.about__illustration{
+    margin-bottom: 102px;
+    margin-left: -28px;
+    align-self: flex-end;
+    position: relative;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.about__illustration-column{
+    gap: var(--space-lg);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__illustration-row{
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-2xl);
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.about__illustration-webdev{
+    height: 224px;
+    width: 56%;
+    object-fit: contain;
+    @media only screen and (max-width: 550px){
+        width: 100%;
+    }
+}
+
+.about__illustration-mobiledev{
+    height: 250px;
+    width: 30%;
+    object-fit: contain;
+    @media only screen and (max-width: 550px){
+        width: 100%;
+    }
+}
+
+.skills {
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-color: var(--blue_gray_900);
+    position: relative; /* Diperlukan untuk positioning pseudo-element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Memastikan pseudo-element tidak melampaui container */
+}
+
+.skills::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../public/images/Skills.png);
+    background-size: cover;
+    opacity: 0.3; /* Atur opacity di sini */
+    z-index: 1; /* Pastikan pseudo-element berada di belakang konten */
+}
+
+/* Konten di dalam .skills */
+.skills > * {
+    position: relative;
+    z-index: 2; /* Pastikan konten berada di atas pseudo-element */
+}
+
+@media only screen and (max-width: 1050px) {
+    .skills {
+        height: auto;
+        padding-top: var(--space-2xl);
+    }
+}
+
+.skills-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.skills__content{
+    gap: 78px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        gap: 58px;
+    }
+    @media only screen and (max-width: 550px) {
+        gap: 39px;
+    }
+}
+
+.skills__title{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.skills__grid{
+    align-items: stretch;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));       
+    }
+    @media only screen and (max-width: 550px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));       
+    }
+}
+
+.works{
+    height: 1084px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--gray_900);
+    background-image: url(../public/images/aboutme.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+    }
+    @media only screen and (max-width: 550px) {
+        padding-top: var(--space-2xl);
+        padding-bottom: var(--space-2xl);
+    }    
+}
+
+.section-works{
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.section-works__column{
+    padding-left: var(--space-xs);
+    padding-right: var(--space-xs);
+    gap: 56px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 550px) {
+        gap: 28px;
+    }
+}
+
+.section-works__title{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.section-works__projects-grid{
+    align-self: stretch;
+    display: grid;
+    gap: 86px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
+.works__title-text{
+    color: var(--teal_a400) !important;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 160% */
+    text-transform: capitalize;
+}
+
+.column{
+    margin-top: 70px;
+    gap: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        gap: 57px;
+    }
+    @media only screen and (max-width: 550px) {
+        gap: 38px;
+    }
+}
+
+.contact__column{
+    width: 1120px;
+    height: 430px;
+    gap: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        gap: 33px;
+    }
+}
+
+.contact__title{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.contact__title-text{
+    color: var(--teal_a400) !important;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 160% */
+    text-transform: capitalize;
+}
+
+.contact__form{
+    gap: 62px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        gap: 30px;
+        width: 50%;
+        margin: auto;
+    }
+    @media only screen and (max-width: 550px) {
+        gap: 30px;
+        width: 25%;
+        margin: auto;
+    }
+}
+
+.contact__form-row{
+    align-self: stretch;
+    display: flex;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.contact__name-column{
+    gap: 18px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+    }
+}
+
+.contact__name-input{
+    color: var(--white_a700) !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 78%;
+    height: 28px;
+    border-bottom: 1 px solid var(--teal_a100) !important;
+}
+
+.contact__email-column{
+    gap: 18px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+    }
+}
+
+.contact__email-input{
+    color: var(--white_a700) !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-self: stretch;
+    height: 28px;
+    border-bottom: 1px solid var(--teal_a100) !important;
+}
+
+.contact__message-column{
+    gap: var(--space-2xl);
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.contact__message-title{
+    display: flex;
+}
+
+.contact__message-input{
+    color: var(--white_a700) !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* background-color: var(--teal_a100) !important; */
+    height: 26px;
+}
+
+.contact__submit-button {
+    display: flex; /* Gunakan flexbox untuk menyusun teks dan ikon */
+    align-items: center; /* Menyusun elemen secara vertikal agar sejajar */
+    justify-content: center; /* Menyusun elemen secara horisontal dan tengah */
+    color: var(--blue_gray_900) !important;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: Ubuntu;
+    text-transform: capitalize;
+    font-size: 20px;
+    gap: var(--space-xl); /* Memberikan jarak antara teks dan ikon */
+    background-color: var(--teal_a400) !important;
+    height: 56px;
+    min-width: 210px;
+    border-radius: 28px !important;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Untuk responsif mobile */
+@media only screen and (max-width: 550px) {
+    .contact__submit-button {
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.contact__submit-button .text-send {
+    color: var(--BG-1, #292F36);
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.contact__submit-button .icon-send {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    margin-left: 0px; /* Memberikan jarak antara teks dan ikon */
+}
+
+.contact__submit-button:hover {
+    color: white;
+    background-color: var(--teal_a400);
+    box-shadow: 
+        0px 4px 10px rgba(0, 128, 128, 0.5), 
+        0px 6px 20px rgba(0, 128, 128, 0.4);
+    transform: translateY(-3px);
+}
+
+.footer{
+    display: flex;
+    align-self: stretch;
+}
+
+.footer__column{
+    gap: var(--space-xl);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__divider{
+    height: 1px;
+    background-color: var(--gray_800);
+    align-self: stretch;
+    width: 100%;
+}
+
+.footer__content{
+    padding-left: 56px;
+    padding-right: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        padding-left: var(--space-2xl);
+        padding-right: var(--space-2xl);
+    }
+}
+
+.footer__content-row{
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-2xl);
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.footer__copyright{
+    color: var(--white_a700);
+    margin-left: 24px;
+    font-family: Ubuntu !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    @media only screen and (max-width: 550px) {
+        margin-left: 0px;
+    }
+}
+
+.footer__socials {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Menyelaraskan ikon secara vertikal */
+    gap: var(--space-2xl);
+    @media only screen and (max-width: 550px) {
+        width: 100%;
+        justify-content: center; /* Mengatur agar ikon sejajar di tengah pada layar kecil */
+    }
+}
+
+.header__socials__email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
