@@ -20,6 +20,11 @@
     font-weight: 400;
     line-height: 72px; /* 112.5% */
     text-transform: capitalize;
+    @media only screen and (max-width: 550px) {
+        font-size: 30px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
 }
 
 .about__description-text-span-1{
@@ -333,6 +338,7 @@
     padding-bottom: 12px;
     background-color: var(--blue_gray_900);
     width: 100%;
+    display: block;
 }
 
 header{
@@ -445,6 +451,10 @@ header{
     @media only screen and (max-width: 1050px) {
         width: 100%;
     }
+    @media only screen and (max-width: 1050px) {
+        width: 50%;
+        height: 300px;
+    }
 }
 
 .rowdeveloper{
@@ -477,6 +487,9 @@ header{
     font-weight: 400;
     line-height: 110px; /* 157.647% */
     text-transform: capitalize;
+    @media only screen and (max-width: 550px) {
+        font-size: 50px;
+    }
 }
 
 .right{
@@ -511,6 +524,10 @@ header{
     font-weight: 400;
     line-height: 72px; /* 112.5% */
     text-transform: capitalize;
+    @media only screen and (max-width: 550px) {
+        font-size: 50px;
+        line-height: 50px;
+    }
 }
 
 .header__info__title__subcontainer__identity{
